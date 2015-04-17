@@ -1,6 +1,18 @@
 @import "settings";
 @import "foundation";
 
+section#about-page {
+	background-color: $coral;
+}
+
+section#location-page {
+	background-color: $tuatara;
+}
+
+section#weekend-page {
+	background-color: $gainsboro;
+}
+
 // Or selectively include components
 // @import
 //   "foundation/components/accordion",
