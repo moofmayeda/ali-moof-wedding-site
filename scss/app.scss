@@ -13,6 +13,16 @@ section#weekend-page {
 	background-color: $gainsboro;
 }
 
+body {
+	color: $blue;
+}
+
+.labelrow {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
 // Or selectively include components
 // @import
 //   "foundation/components/accordion",

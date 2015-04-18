@@ -99,12 +99,12 @@ $include-html-global-classes: $include-html-classes;
 
 // $white       : #FFFFFF;
 // $ghost       : #FAFAFA;
-// $snow        : #F9F9F9;
+$snow        : #F9F9F9;
 // $vapor       : #F6F6F6;
 // $white-smoke : #F5F5F5;
 // $silver      : #EFEFEF;
 // $smoke       : #EEEEEE;
-$gainsboro   : #DDDDDD;
+// $gainsboro   : #DDDDDD;
 // $iron        : #CCCCCC;
 // $base        : #AAAAAA;
 // $aluminum    : #999999;
@@ -117,8 +117,9 @@ $tuatara     : #444444;
 // $jet         : #222222;
 // $black       : #000000;
 $lighterblue : #718FBF;
-$blue : #1C2EBA;
-$coral : #FA5050;
+$blue : #1E1F4F;
+$coral : #F58989;
+$grey : #9E9E9E;
 
 // We use these as default colors throughout
 // $primary-color: #008CBA;
@@ -129,7 +130,7 @@ $coral : #FA5050;
 // $info-color: #a0d3e8;
 
 // We use these to control various global styles
-$body-bg: $gainsboro;
+$body-bg: $snow;
 // $body-font-color: $jet;
 // $body-font-family: $font-family-sans-serif;
 // $body-font-weight: $font-weight-normal;
@@ -1384,7 +1385,7 @@ $body-bg: $gainsboro;
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
-$topbar-bg-color: $gainsboro;
+$topbar-bg-color: $snow;
 // $topbar-bg: $topbar-bg-color;
 
 // Height and margin
@@ -1396,7 +1397,7 @@ $topbar-bg-color: $gainsboro;
 $topbar-title-font-size: rem-calc(18);
 
 // Set the link colors and styles for top-level nav
-$topbar-link-color: $lighterblue;
+$topbar-link-color: $grey;
 $topbar-link-color-hover: $blue;
 $topbar-link-color-active: $blue;
 $topbar-link-color-active-hover: $blue;
