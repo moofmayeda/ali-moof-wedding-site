@@ -1277,11 +1277,11 @@ $header-font-color: $blue;
 // $include-html-table-classes: $include-html-classes;
 
 // These control the background color for the table and even rows
-// $table-bg: $white;
-// $table-even-row-bg: $snow;
+$table-bg: $coral;
+$table-even-row-bg: $coral;
 
 // These control the table cell border style
-// $table-border-style: solid;
+$table-border-style: 0;
 // $table-border-size: 1px;
 // $table-border-color: $gainsboro;
 
@@ -1308,7 +1308,7 @@ $header-font-color: $blue;
 // These control the row padding and font styles
 // $table-row-padding: rem-calc(9 10);
 // $table-row-font-size: rem-calc(14);
-// $table-row-font-color: $jet;
+$table-row-font-color: $blue;
 // $table-line-height: rem-calc(18);
 
 // These are for controlling the layout, display and margin of tables
