@@ -3,5 +3,5 @@
 $(document).foundation();
 
 $(document).ready(function() {
-	$('nav.top-bar a').smoothScroll();
+	$('nav.top-bar a').smoothScroll({offset: -44, speed: 500});
 });
