@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": "true",
   "dependencies": {
-    "foundation": "zurb/bower-foundation"
+    "foundation": "zurb/bower-foundation",
+    "jquery-smooth-scroll": "~1.5.5"
   }
 }
