@@ -39,6 +39,12 @@ body, a.blue {
 	vertical-align:middle;
 }
 
+#banner-photo img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
 $font-path: "../fonts/foundation-icons/foundation-icons";
 @font-face {
   font-family: "foundation-icons";
