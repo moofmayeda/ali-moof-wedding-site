@@ -1,0 +1,170 @@
+/* all app scss styles here */
+
+@import "compass/css3";
+@import "compass/utilities";
+
+section#about-page {
+  background-color: $snow;
+}
+
+section#location-page, section#registry-page {
+  background-color: $coral;
+}
+
+section#weekend-page {
+  background-image: url("../images/swirl_pattern.png");
+  background-repeat: repeat;
+}
+
+body, a.blue {
+  color: $blue;
+}
+
+.labelrow {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.full-width {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+}
+
+.vertical-align {
+//  position: absolute;
+//  top: 50%;
+//  transform: translateY(-50%);
+  display:table-cell;
+  vertical-align:middle;
+}
+
+.hero {
+  background: url('../images/beach.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .8; 
+  }
+  .intro {
+    padding: 3rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    letter-spacing: -0.025em;
+    font-weight: 300;
+    text-align: center;
+  }
+  p {
+    color: #fff;
+    line-height: 1.75em;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .couple-img {
+    background: url('../images/alimoof-peaks.jpg') no-repeat center center;
+    background-size: cover;
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  @media only screen and (min-width: 40.063em) {
+    .couple-img {
+      height: 18rem;
+      width: 18rem;
+    }
+    h1 {
+      padding-top: 4.5rem;
+      text-align: right;
+      font-size: 2.5rem;
+    }
+    p {
+      text-align: right;
+    }
+  }
+}
+
+.imgDescription {
+  position: relative;
+  text-align: center;
+
+  visibility: none;
+  opacity: 0;
+
+  /*remove comment if you want a gradual transition between states
+  -webkit-transition: visibility opacity 0.2s;
+  */
+}
+
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+
+$font-path: "../fonts/foundation-icons/foundation-icons";
+@font-face {
+  font-family: "foundation-icons";
+  src: url("#{$font-path}.eot");
+  src: url("#{$font-path}.eot?#iefix") format("embedded-opentype"),
+       url("#{$font-path}.woff") format("woff"),
+       url("#{$font-path}.ttf") format("truetype"),
+       url("#{$font-path}.svg#fontcustom") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import "../fonts/foundation-icons/foundation-icons.css";
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switches",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
