@@ -5,3 +5,4 @@ node_modules
 .tmp
 app/bower_components
 .sass-cache
+dist

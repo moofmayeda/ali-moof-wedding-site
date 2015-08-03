@@ -52,6 +52,12 @@ module.exports = function(grunt) {
 			},
 		},
 
+		cssmin: {
+			options: {
+				rebase: false
+			}
+		},
+
 		imagemin: {
 			target: {
 				files: [{
