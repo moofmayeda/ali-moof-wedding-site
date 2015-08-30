@@ -8340,22 +8340,8 @@ body, a.blue {
   color: #1E1F4F;
 }
 
-.labelrow {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-
-.full-width {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: initial;
-}
-
-.vertical-align {
-  display: table-cell;
-  vertical-align: middle;
+.picture-row {
+  margin-bottom: 10px;
 }
 
 .hero {
