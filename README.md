@@ -1,4 +1,4 @@
-## zf5_project
+## Ali and Moof's wedding site
 
 `npm install`
 
