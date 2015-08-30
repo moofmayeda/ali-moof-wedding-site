@@ -7,11 +7,7 @@ section#about-page {
   background-color: $snow;
 }
 
-section#location-page, section#registry-page {
-  background-color: $coral;
-}
-
-section#weekend-page {
+section#weekend-page, section#registry-page, section#ceremony-page {
   background-image: url("../images/swirl_pattern.png");
   background-repeat: repeat;
 }

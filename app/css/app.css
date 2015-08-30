@@ -8327,11 +8327,7 @@ section#about-page {
   background-color: #F9F9F9;
 }
 
-section#location-page, section#registry-page {
-  background-color: #F58989;
-}
-
-section#weekend-page {
+section#weekend-page, section#registry-page, section#ceremony-page {
   background-image: url("../images/swirl_pattern.png");
   background-repeat: repeat;
 }
