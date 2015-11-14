@@ -21,7 +21,7 @@ body, a.blue {
 }
 
 .hero {
-  background: url('../images/beach.jpg') no-repeat center center;
+  background: url('../images/moofonalisback.jpg') no-repeat center center;
   background-size: cover;
   height: 100vh;
   &:before {
@@ -31,12 +31,12 @@ body, a.blue {
     right: 0;
     bottom: 0;
     left: 0;
-    opacity: .8; 
+    opacity: .8;
   }
   .intro {
     padding: 3rem;
     position: relative;
-    top: 50%;
+    top: 70%;
     transform: translateY(-50%);
   }
   h1 {
