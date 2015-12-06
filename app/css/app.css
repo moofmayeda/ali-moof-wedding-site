@@ -8698,5 +8698,8 @@ body, a.blue {
   font-weight: normal;
   font-style: normal;
 }
+.registries p {
+  font-style: italic;
+}
 
 /*# sourceMappingURL=app.css.map */
