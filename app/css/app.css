@@ -8691,6 +8691,13 @@ body, a.blue {
   opacity: 1;
 }
 
+.registries h5 {
+  display: inline;
+}
+.registries p {
+  display: inline;
+}
+
 @font-face {
   font-family: "foundation-icons";
   src: url("../fonts/foundation-icons/foundation-icons.eot");

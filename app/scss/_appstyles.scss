@@ -97,6 +97,16 @@ body, a.blue {
   opacity: 1;
 }
 
+.registries {
+  h5 {
+    display: inline;
+  }
+
+  p {
+    display: inline;
+  }
+}
+
 $font-path: "../fonts/foundation-icons/foundation-icons";
 @font-face {
   font-family: "foundation-icons";
